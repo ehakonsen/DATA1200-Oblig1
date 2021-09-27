@@ -71,14 +71,15 @@ h2 {
 h3 {
     font-family: Georgia;
     font-size: 2rem;
-    color: black;
-    text-align: left;
+    color: white;
+    text-align: center;
 }
 
 p {
     font-family: 'Trebuchet MS';
     font-size: 1.8rem;
     color: white;
+    text-align: center;
 }
 
 #back-to-top {
