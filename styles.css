@@ -26,8 +26,8 @@ main {
 }
 
 #logo {
-    height: 100%;
-    padding-top: 20px;
+    height: 80%;
+    margin: 25px 0 0 100px;
 }
 
 ul {
@@ -91,4 +91,13 @@ p {
     font-family: 'Trebuchet MS';
     font-size: 1.6rem;
     color: black;
+}
+
+.report {
+    background-color: white;
+}
+
+.report > h1, h2, p {
+    color: black;
+    text-align: left;
 }
