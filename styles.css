@@ -65,6 +65,12 @@ h2 {
     color: black;
     text-align: center;
 }
+h3 {
+    font-family: Georgia;
+    font-size: 2rem;
+    color: black;
+    text-align: left;
+}
 
 p {
     font-family: 'Trebuchet MS';
