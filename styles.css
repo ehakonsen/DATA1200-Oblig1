@@ -8,24 +8,25 @@ body {
 
 main {
     padding: 8%;
+    background-color: #9C0000;
 }
 
 #header-left {
-    background-color: lightgrey;
+    background-color: #056702;
     width: 50%;
     height: 200px;
     float: left;
 }
 
 #header-right {
-    background-color: lightgrey;
+    background-color: #056702;
     width: 50%;
     height: 200px;
     float: right;
 }
 
 #logo {
-    height: 80%;
+    height: 100%;
     padding-top: 20px;
 }
 
@@ -33,7 +34,7 @@ ul {
     list-style-type: none;
     margin: 120px 0 0 0;
     padding: 20px;
-    background-color: lightgray;
+    background-color: #056702;
   }
 
 li {
@@ -42,10 +43,12 @@ li {
     margin: 20px;
     font-family: 'Trebuchet MS';
     font-size: 2rem;
+    color: white;
 }
   
 li > a {
     text-decoration: none;
+    color: white;
 }
 
 #welcome, #menu, #location, #contact{
@@ -55,29 +58,30 @@ li > a {
 h1 {
     font-family: Georgia;
     font-size: 3.6rem;
-    color: black;
+    color: white;
     text-align: center;
 }
 
 h2 {
     font-family: Georgia;
     font-size: 2.4rem;
-    color: black;
+    color: white;
     text-align: center;
 }
 
 p {
     font-family: 'Trebuchet MS';
     font-size: 1.8rem;
-    color: navy;
+    color: white;
 }
 
-#top {
+#back-to-top {
     font-size: 2rem;
+    color: white;
 }
 
-footer > *{
-
+.footer-text {
+    padding: 0 0 1% 2%;
     font-family: 'Trebuchet MS';
     font-size: 1.6rem;
     color: black;
