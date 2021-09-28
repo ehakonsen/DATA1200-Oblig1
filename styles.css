@@ -8,7 +8,7 @@ body {
 
 main {
     padding: 8%;
-    background-color: #9C0000;
+    background-color: #cd212a;
 }
 
 #header-left {
@@ -16,13 +16,15 @@ main {
     width: 50%;
     height: 200px;
     float: left;
+    margin-bottom: 40px;
 }
 
 #header-right {
     background-color: #056702;
     width: 50%;
     height: 200px;
-    float: right;
+    float: left;
+    margin-bottom: 40px;
 }
 
 #logo {
@@ -51,54 +53,80 @@ li > a {
     color: white;
 }
 
-#welcome, #menu, #location, #contact{
-    margin-top: 15%;
+#welcome, #menu, #location, #contact {
+    clear: left;
+    margin: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px 3px #6E0303;
 }
 
 h1 {
     font-family: Georgia;
     font-size: 3.6rem;
-    color: white;
+    color: black;
     text-align: center;
 }
 
 h2 {
     font-family: Georgia;
     font-size: 2.4rem;
-    color: white;
+    color: black;
     text-align: center;
+    margin-top: 40px;
 }
+
 h3 {
     font-family: Georgia;
     font-size: 2rem;
-    color: white;
+    color: black;
     text-align: center;
+    margin-top: 30px;
+}
+
+h4 {
+    font-family: Georgia;
+    font-size: 1.6rem;
+    color: white;
+    background-color: black;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    margin-top: 30px;
 }
 
 p {
     font-family: 'Trebuchet MS';
     font-size: 1.8rem;
-    color: white;
+    color: black;
     text-align: center;
 }
 
 #back-to-top {
-    font-size: 2rem;
+    font-family: 'Trebuchet MS';
+    font-size: 1.8rem;
     color: white;
 }
 
-.footer-text {
-    padding: 0 0 1% 2%;
+#report-link {
     font-family: 'Trebuchet MS';
     font-size: 1.6rem;
     color: black;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
 }
 
-.report {
-    background-color: white;
-}
-
-.report > h1, h2, p {
+#copyright {
+    font-family: 'Trebuchet MS';
+    font-size: 1.6rem;
     color: black;
+    margin-bottom: 30px;
+}
+
+#report * {
+    background-color: white;
     text-align: left;
 }
+
