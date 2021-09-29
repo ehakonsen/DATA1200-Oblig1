@@ -34,7 +34,7 @@ ul {
     margin: 0;
     padding: 20px;
     background-color: #056702;
-  }
+}
 
 li {
     display: inline;
@@ -53,6 +53,13 @@ li > a {
 li > a:hover {
     background-color: white;
     color: #cd212a;
+}
+
+.menueimg{
+    height: 300px;
+    width: 400px;
+    display: block;
+    margin: 0 auto 105px;
 }
 
 #welcome, #menu, #location, #contact {
@@ -95,7 +102,8 @@ h4 {
     background-color: black;
     padding: 5px 0 5px 0;
     text-align: center;
-    margin-top: 30px;
+    /*margin-top: 30px;*/
+    border-radius: 5px;
 }
 
 p {
