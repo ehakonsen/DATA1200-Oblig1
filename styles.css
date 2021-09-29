@@ -7,13 +7,13 @@ body {
 }
 
 main {
-    padding: 8%;
+    padding: 5% 8%;
     background-color: #cd212a;
 }
 
 header {
     background-color: #056702;
-    width: 100%
+    width: 100%;
     height: 200px;
     margin-bottom: 40px;
 }
@@ -59,7 +59,7 @@ li > a:hover {
     height: 300px;
     width: 400px;
     display: block;
-    margin: 0 auto 105px;
+    margin: 0 auto 85px;
 }
 
 #welcome, #menu, #location, #contact {
@@ -95,14 +95,13 @@ h3 {
     margin-top: 30px;
 }
 
-h4 {
+#allergens {
     font-family: Georgia;
     font-size: 1.6rem;
     color: white;
     background-color: black;
     padding: 5px 0 5px 0;
     text-align: center;
-    /*margin-top: 30px;*/
     border-radius: 5px;
 }
 
