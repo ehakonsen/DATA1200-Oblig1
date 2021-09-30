@@ -108,6 +108,7 @@ h3 {
 p {
     font-family: 'Trebuchet MS';
     font-size: 1.8rem;
+    line-height: 1.5;
     color: black;
     text-align: center;
 }
@@ -116,6 +117,14 @@ p {
     font-family: 'Trebuchet MS';
     font-size: 1.8rem;
     color: white;
+}
+
+#home {
+    font-family: 'Trebuchet MS';
+    font-size: 1.8rem;
+    color: black;
+    display: block;
+    padding: 5% 8%;
 }
 
 #report-link {

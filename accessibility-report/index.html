@@ -5,20 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accessibility report</title>
-    <link rel="stylesheet" href="../styles.css" type="text/css">
+    <link rel="stylesheet" href="../styles/styles.css" type="text/css">
 </head>
 <body id = "report">
     <main>
         <h1>Accessibility report</h1> 
-        <h2>Preparations</h2>
-            <p>Text size and choice of font.</p>
-            <p>Colour scheme and contrast check.</p>
-            <p>Diverse styling.</p>
-            <p>Clearly defined page structure.</p>
-            <p>Validated HTML and CSS.</p>
-            <p>SEO</p>
-
-        <h2>Results of WCAG test</h2>
+        <p>We designed and built this webpage with the aim of making it accessible to those with visual impairments, as well as optimising its visibility to search engines. To achieve our goal it was necessary to consider various elements in our HTML and CSS markup.</p>
+        <h2>Colours</h2>
+            <p>While we wanted to use a bright colour scheme based upon the red and green of the Italian flag, we had to ensure that we used the colours in a considerate way. For example, we didn’t use red and green on top of one another because this would make the website unusable for the large number of people with red-green colour blindness (the most common type of colour vision deficiency). Instead, we tested various combinations of text colour on these backgrounds (using <a href="https://contrastchecker.com/">Contrastchecker.com</a>) and found that white was the best option, so we used white text for links and placed the main body text in white text boxes for better legibility.</p>
+        <h2>Fonts</h2>
+            <p>We wanted to create responsive text which would adapt to users’ browser settings without them having to manually rescale the page. By setting the default HTML font size of our website to a percentage and using rem values for font-size in the page design itself, the text will rescale if the user decides to set their default browser font size to larger than the standard 16px.</p>
+            <p>Rather than opt for special ‘dyslexia-friendly’ fonts, we instead kept the number of fonts to a minimum and chose two common fonts – Georgia (a serif font just used for headings) and Trebuchet (a sans serif font used for all body text and links). The only special text styling we used was to tag the allergens as strong so that this important information will also be emphasised for people using screen readers.</p>
+        <h2>Images</h2>
+            <p>All images, including the restaurant logo, carry an alt text which provides sufficient description for the visually impaired. This will also help boost our SEO ranking.</p>
+        <h2>Page structure</h2>
+            <p>We opted for a clearly defined, uncluttered page structure: each section of the page appears in its own text box with a heading, and the user can navigate directly to each section using the links in the header.</p>
+        <h2>SEO considerations</h2>
+            <p>In order to improve the SEO of our website, we added the keyword and description meta tags to the head section of the HTML to provide search engines with useful information about the content of our site. We added a favicon to help the website stand out because, although they do not directly contribute to a website’s ranking, favicons can be useful for building branding and visibility when users have many browsers open at once.</p>
+            <p>We kept sentences short and concise (SEO plug-in Yoast recommends fewer than 20 words per sentence).</p>   
+        <h2>Accessibility testing</h2>
+            <p>After submitting our website to a WCAG testing platform (<a href="https://achecker.achecks.ca/checker/index.php">AChecker</a>), we were pleased to see that the report identified no known problems for us to correct. The checker did question whether the list of allergens was appropriately tagged as paragraph text, but as it is not a header we left the markup as is.</p>
     </main>
+    <a id = "home" href = "../index.html">Home</a>
 </body>
 </html>
